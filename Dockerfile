@@ -11,4 +11,4 @@ RUN chmod +x entrypoint.sh
 
 RUN pipenv install --system
 
-ENTRYPOINT [ "./entrypoint.sh" ]
+ENTRYPOINT [ "/app/entrypoint.sh" ]
